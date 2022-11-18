@@ -18,7 +18,7 @@ Currently, the project adds an `INCLUDE+` Dockerfile directive that allows you t
 Once your Docker is set, you just need to add the following line as your first line in your Dockerfile:
 
 ```Dockerfile
-# syntax = edrevo/dockerfile-plus
+# syntax = ungtb10d/dockerfile-plus
 ```
 
 That's it!
@@ -32,7 +32,7 @@ Right now there is just one extra instruction: `INCLUDE+`. All Dockerfile+ comma
 `INCLUDE+` will import the verbatim contents of another file into your Dockerfile. Here's an example Dockerfile which uses the `INCLUDE+` instruction:
 
 ```Dockerfile
-# syntax = edrevo/dockerfile-plus
+# syntax = ungtb10d/dockerfile-plus
 
 FROM alpine
 
@@ -91,7 +91,7 @@ docker buildx inspect --bootstrap
 ```
 docker buildx build \                                                                   
 --platform linux/arm64/v8,linux/amd64 \
---tag edrevo/dockerfile-plus:latest \
+--tag ungtb10d/dockerfile-plus:latest \
 -f dockerfile-plus/Dockerfile \
 --load ## or --push to push DockerHub \ 
 .

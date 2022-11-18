@@ -1,4 +1,4 @@
-# syntax = edrevo/dockerfile-plus:0.1
+# syntax = ungtb10d/dockerfile-plus:0.1
 
 FROM alpine
 

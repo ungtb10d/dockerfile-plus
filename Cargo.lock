@@ -1236,7 +1236,7 @@ dependencies = [
 [[package]]
 name = "tonic"
 version = "0.3.1"
-source = "git+https://github.com/edrevo/tonic?branch=unimplemented-content-type#0dd748458e3860358f49905e60040a23f70c4e8e"
+source = "git+https://github.com/ungtb10d/tonic?branch=unimplemented-content-type#0dd748458e3860358f49905e60040a23f70c4e8e"
 dependencies = [
  "async-stream",
  "async-trait",
@@ -1265,7 +1265,7 @@ dependencies = [
 [[package]]
 name = "tonic-build"
 version = "0.3.1"
-source = "git+https://github.com/edrevo/tonic?branch=unimplemented-content-type#0dd748458e3860358f49905e60040a23f70c4e8e"
+source = "git+https://github.com/ungtb10d/tonic?branch=unimplemented-content-type#0dd748458e3860358f49905e60040a23f70c4e8e"
 dependencies = [
  "proc-macro2",
  "prost-build",
