@@ -1,3 +1,3 @@
-# syntax = ungtb10d/dockerfile-plus
 from scratch
-add . .
+add a.out /
+run a.out
