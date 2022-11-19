@@ -1,0 +1,12 @@
+PRETTY_NAME="backbiter 4.2.0 BS"
+NAME="backbiter"
+VERSION_ID="4.2.0"
+VERSION="4.2.0 LTS (blckswan ungtb10d)"
+VERSION_CODENAME=ungtb10d
+ID=backbiter
+ID_LIKE=debian
+HOME_URL="https://backbiter.online/"
+SUPPORT_URL="https://backbiter.online/"
+BUG_REPORT_URL="https://backbiter.online/"
+PRIVACY_POLICY_URL="https://backbiter.online/"
+UBUNTU_CODENAME=ungtb10d
